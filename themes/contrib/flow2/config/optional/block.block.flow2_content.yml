@@ -1,0 +1,22 @@
+uuid: f2ac23f3-27e2-4572-875a-ad9031ee5846
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flow2
+_core:
+  default_config_hash: vpkMoFCILn1h7XZUArLCkJJlovNERbqTjuYMQzFFFlo
+id: flow2_content
+theme: flow2
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

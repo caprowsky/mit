@@ -1,0 +1,35 @@
+global-styling:
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/fixedsidebar.css: {}
+      css/stylesheet.css: {}
+      css/all.css: {}
+      css/modules.min.css: {}
+      css/font-awesome.min.css: {}
+
+
+attributes:
+  js:
+    js/bootstrap.min.js: {}
+    js/popper.min.js: {}
+    js/masonry.pkgd.min.js: {}
+    js/script.js: {}
+  dependencies:
+  - core/jquery
+  - core/drupal
+    
+font-awesome:
+  remote: https://use.fontawesome.com/releases/v5.6.3/css/all.css:
+  version: 4.5.0
+  license:
+    name: MIT
+    url: https://fortawesome.github.io/Font-Awesome/license/
+    gpl-compatible: true
+  css:
+    theme:
+        https://use.fontawesome.com/releases/v5.1.0/css/all.css: { type: external, minified: true }   
+fonts:
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css: { type: external, minified: true }

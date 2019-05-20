@@ -1,0 +1,26 @@
+uuid: 74e9eee2-9d29-4526-aa53-53a78653c57a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - flow2
+_core:
+  default_config_hash: tTe6m_Lxg4IFB8Fxq3qH2b7s64KAHP01CawPV7d7e28
+id: flow2_main_menu
+theme: flow2
+region: navigation
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

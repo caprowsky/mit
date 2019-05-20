@@ -1,0 +1,22 @@
+uuid: 38e9e7ae-b2b7-41ba-a287-b6f3a536099c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flow2
+_core:
+  default_config_hash: wMqUNWKUh_suIk-CuH5ER2EIv0WyCKN9qQ5ugaDybyw
+id: flow2_local_tasks
+theme: flow2
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

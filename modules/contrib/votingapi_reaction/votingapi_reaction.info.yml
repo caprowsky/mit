@@ -1,0 +1,15 @@
+name: Voting API Reaction
+type: module
+description: 'Allows users to react to any entity using Voting and Field APIs'
+package: Voting
+# core: 8.x
+
+dependencies:
+  - drupal:votingapi
+  - drupal:field
+
+# Information added by Drupal.org packaging script on 2019-02-17
+version: '8.x-1.0'
+core: '8.x'
+project: 'votingapi_reaction'
+datestamp: 1550422686

@@ -1,0 +1,22 @@
+uuid: 8885780b-d603-4397-8e75-ff5ad8edee04
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - flow2
+_core:
+  default_config_hash: uhmrl99NRXtoQPBNrn0YF9zc1zpDyZx9xsaFf_bZTlk
+id: flow2_help
+theme: flow2
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

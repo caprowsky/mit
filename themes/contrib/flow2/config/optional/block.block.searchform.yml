@@ -1,0 +1,28 @@
+uuid: 71c7c5c1-ac02-454f-af8e-ced887c742d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - flow2
+_core:
+  default_config_hash: U31-9T1FC69OWr0tuSPRClLU1x2wS5j6i0YDsSKIsfo
+id: searchform
+theme: flow2
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

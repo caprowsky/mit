@@ -1,0 +1,22 @@
+uuid: a941d483-fbb2-408b-afc4-0b6fcbfd6063
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flow2
+_core:
+  default_config_hash: FJGdXA4HBVqBNbfk6heTQgYdyhdOQY2vsGJn9U8krlY
+id: flow2_messages
+theme: flow2
+region: header
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

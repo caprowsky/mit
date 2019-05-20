@@ -1,0 +1,22 @@
+uuid: 9a5f505b-fe3a-47f6-9e44-bef258c9c87f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flow2
+_core:
+  default_config_hash: sva7lkwkiJ-Kk0YClviQBLBJmHSt1H3JaLh5XqCTTyA
+id: flow2_breadcrumbs
+theme: flow2
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

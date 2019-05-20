@@ -1,0 +1,17 @@
+{
+  "name": "drupal/flow2",
+  "description": "Flow2 Masonry theme.",
+  "type": "drupal-theme",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Vinit Kumar (vinitk)",
+      "homepage": "https://www.drupal.org/u/vinitk",
+      "role": "Maintainer"
+    }
+  ],
+"require-dev": {
+    "drupal/masonry": "^1.0",
+    "drupal/masonry_views": "^1.0",
+    "drupal/bootstrap": "3.11"
+}

@@ -1,0 +1,142 @@
+/*
+    DEMO STYLE
+*/
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0 !important;
+  margin-bottom: 0px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.sidebar .menu, .menu.menu--dashboard-menu {
+  overflow: hidden;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+i, span {
+  display: inline-block;
+}
+
+.padding-left-none {
+  padding-left: 0px;
+}
+
+.padding-right-none {
+  padding-right: 0px;
+}
+
+.padding-both-none {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #e24c35;
+  border-bottom: 3px solid #e24c35;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #e24c35;
+  background-color: transparent;
+}
+
+a:focus, .btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#side-menu-toggle {
+  position: absolute;
+  z-index: 999;
+}
+
+pre {
+  border: 0;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+#sidebar.active .sidebar-header h3, #sidebar.active .CTAs {
+  display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+  display: block;
+}
+
+#sidebar.active ul li a i {
+  margin-right: 0;
+  display: block;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+#sidebar.active ul ul a {
+  padding: 10px !important;
+}
+
+#sidebar.active a[aria-expanded="false"]::before, #sidebar.active a[aria-expanded="true"]::before {
+  top: auto;
+  bottom: 5px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+#sidebar .sidebar-header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#sidebar .sidebar-header strong {
+  display: none;
+  font-size: 1.8em;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul li:last-child a {
+  border-bottom: none !important;
+}
+
+#sidebar ul li a:hover {
+  color: #58bcb3;
+  background: #fff;
+}
+
+#sidebar ul li a i {
+  margin-right: 10px;
+}
+
+.navbar-toggle {
+  float: left;
+  background: #ededed;
+}
+
+.navbar-toggle .icon-bar {
+  background: #333;
+}
+.grid-item { width: 300px; }

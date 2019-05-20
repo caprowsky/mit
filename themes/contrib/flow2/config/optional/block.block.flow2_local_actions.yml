@@ -1,0 +1,20 @@
+uuid: 3d18da3b-1d37-4ae9-b09b-8279d70e670a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flow2
+_core:
+  default_config_hash: IKDmnmYHyI67sqmBRJcburUek5elQxFY0r7eE2FcDzc
+id: flow2_local_actions
+theme: flow2
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

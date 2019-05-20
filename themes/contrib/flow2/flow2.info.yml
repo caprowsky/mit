@@ -1,0 +1,37 @@
+# core: 8.x
+type: theme
+
+name: 'flow2'
+description: 'Built to use flow2 which is based on Bootstrap, it is blogger theme.'
+
+regions:
+  logo_header: 'Logo Header'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - flow2/global-styling
+  - flow2/attributes
+  - flow2/fonts
+  - flow2/font-awesome
+
+# Information added by Drupal.org packaging script on 2019-01-09
+# version: '8.x-1.0'
+# core: '8.x'
+# project: 'flow2'
+# datestamp: 1535372886
+
+# Information added by Drupal.org packaging script on 2019-02-07
+version: '8.x-4.0-beta3'
+core: '8.x'
+project: 'flow2'
+datestamp: 1549522089

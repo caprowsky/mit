@@ -1,0 +1,22 @@
+uuid: 807ab372-8314-4219-86f2-018418ff07ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flow2
+_core:
+  default_config_hash: 1PzNQ_5gjhwMTr_3yxArbFSSJ_cAMbp77WDON5F-u84
+id: flow2_powered
+theme: flow2
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
